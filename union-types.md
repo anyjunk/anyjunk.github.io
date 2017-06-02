@@ -1,5 +1,9 @@
 # Unboxed Union Types
 
+<sub>Submitted: Fri 2nd June 2017, Updated: Fri 2nd June 2017</sub>
+
+---
+
 A union type is something which can be realised as one of many (usually two) types. `Either` is an example in scala -
 `Either[A, B]` can be `Left[A]` or `Right[B]` - a value of either type can be used in a place where we ask for an `Either[A, B]`.
 
